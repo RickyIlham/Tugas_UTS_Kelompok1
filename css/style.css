@@ -4,11 +4,15 @@
 }
 #home {
     background-image: url(../img/img1.jpeg);
+    background-size: cover;
     color: whitesmoke;
     height: 100vh;
 }
-#product {
-    background-image: url(../img/img1.jpeg);
+#home .row .col-md-8{
+    margin-top: 75px;
+}
+#produk {
+    background:black;
     color: whitesmoke;
 }
 /* NAVBAR */
