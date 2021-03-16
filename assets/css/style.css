@@ -86,7 +86,7 @@ body{
     background-image: url(../../img/img1.jpeg);
     background-size: cover;
     color: whitesmoke;
-    height: 100vh;
+    height: 105vh;
 }
 #home .row .col-md-8{
     margin-top: 75px;
@@ -111,4 +111,50 @@ body{
 .bg-nontrans {
     background-color: rgba(255,255,255,255) !important;
 }
+
+/* Contact Us Page */
+#kontak{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url(../../img/hu-tao.jpg);
+    background-size: 100% 100%;
+    height: 90vh;
+}
+.head{
+    background-color: darkgray;
+    border-radius: 5px;
+    margin-top: -40px;
+}
+.effect-1{
+    border: 0;
+    outline: none;
+    width: 100%;
+    padding: 7px 0;
+    border-bottom: 1px solid #ccc;
+}
+.effect-1 ~ .Focus-border{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: darkgray;
+    transition: 0.4s;
+}
+.effect-1:focus ~ .Focus-border{
+    width: 100%;
+    transition: 0.4s;
+    left: 0;
+}
+.btn1{
+    background-color: darkgray;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 145px;
+}
+
 
