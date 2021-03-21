@@ -82,6 +82,19 @@ body{
     color: #333;
 }
 
+.modal-title, .product-content{
+    color:black;
+}
+
+.img-modal{
+    height: 200px;
+    width: 200px;
+}
+
+#chart{
+    color:black;
+}
+
 #home {
     background-image: url(../../img/img1.jpeg);
     background-size: cover;
